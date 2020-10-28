@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+#left-section{
+    float: left;
+    width: 25%;
+    border: 2px solid red ;
+    background-color: gray;
+}
+
+
+.profilePic{
+    border-radius: 5%;
+    border: 2px solid black;
+    max-width: 100%;
+    height: auto;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-space{
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.profile-space{
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+.btn{
+    width: 0.1px;
+	height: 0.1px;
+    opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    z-index: -1;
+    cursor: pointer; 
+}
+
+
+.btn + label{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: .5rem;
+    display: inline-block;
+    font-family: 'Roboto Medium', sans-serif;
+    border-style: none;
+    border-width: 0;
+    font-size: .85rem;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+}
+
+.btn + label:hover {
+    background-color:#282c34;
+}
+
+.btn:disabled + label{
+    background-color: red;
+    cursor: no-drop;
+}
+
+.addBtn{
+    background-color: green;
+}
+
+.modifyBtn{
+    background-color: #4287f5;
+}
+
+.blockBtn{
+    background-color: rgb(170, 106, 80);
+}
+
+.deleteBtn{
+    background-color: red;
+}
+
+.btn-container{
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.stars-outer {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+  }
+
+  .stars-outer::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+  }
+
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0
+  }
+   
+  .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8ce0b;
+  }
+
+  #h4Shipment{
+    margin-top: 20px;
+    color:gray;
+  }

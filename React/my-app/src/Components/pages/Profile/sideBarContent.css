@@ -1,0 +1,75 @@
+@keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1 }
+    100% { opacity: 0 }
+}
+
+.profilePic{
+    border-radius: 5%;
+    border: 2px solid black;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-space{
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.profile-space{
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.user-welcome{
+    white-space: nowrap;
+    text-align: center;
+}
+
+.menu{
+    display: block;
+    width: 100%;
+}
+
+.menuBtn{
+    width: 0.1px;
+	height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+	position: absolute;
+    z-index: -1;
+    cursor: pointer; /* "hand" cursor */
+}
+
+.menuBtn + label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1 em;
+    background-color: #32a88d;
+    font-weight: 700;
+    color:#282c34;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    transition: all 0.2s;
+    cursor: pointer;
+    width: 100%;
+    height: 4.1em;
+}
+
+.menuBtn:focus + label,
+.menuBtn + label:hover {
+    background-color:#343e52;
+    color: white;
+}
+
+.icon{
+    margin: 10px;
+}

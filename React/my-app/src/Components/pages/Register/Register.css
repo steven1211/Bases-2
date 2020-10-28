@@ -1,0 +1,175 @@
+
+*{
+    box-sizing: border-box;
+}
+#center-section{
+    margin:auto;
+    width:350px;
+}
+
+#main-section{
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+.imageButton{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    z-index: -1;
+    cursor: pointer; /* "hand" cursor */
+}
+
+.imageButton + label {
+    font-size: 1 em;
+    padding: 10px;
+    border-radius:28px;
+    border:1px solid #282c34;
+    font-weight: 700;
+    color:#282c34;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    text-align:center;
+    transition: all 0.2s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.imageButton:focus + label,
+.imageButton + label:hover {
+    background-color:#282c34;
+    color: white;
+}
+
+
+.spacing-base{
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+.image-space{
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.box .box-container{
+    border-radius: 4px;
+    position: relative;
+    padding: 20px 26px;
+
+}
+
+.border{
+    display:block;
+    border-radius: 4px;
+    border: 2.5px grey solid;
+    background-color: white;
+}
+
+.button{
+    background:#e7e9ec;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor:pointer;
+    display: inline-block;
+    padding:0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: center;
+    width: 100%;
+}
+
+.buttonInside{
+    width: 20%;
+}
+
+
+.button-inner{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 29px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.6) inset ;
+    border-radius: 2px;
+    background: linear-gradient(to botton,#f7f8fa, #e7e9ec);
+}
+
+.button-text{
+    border:0;
+    background-color: transparent;
+    display: block;
+    font-size: 13px;
+    line-height: 29px;
+    margin: 0;
+    padding: 0 10px 0 11px;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+.divider{
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 14px;
+    line-height: 0px;
+}
+
+
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    padding:20px;
+    margin: 0;
+}
+
+input {
+    transition: all 100ms linear;
+    line-height: 19px;
+    color: black;
+    vertical-align: middle;
+}
+
+span {
+    display: block;
+    padding-left: 2px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+div{
+    display: block;
+}
+
+button {
+    cursor: pointer
+}
+
+
+
+
+

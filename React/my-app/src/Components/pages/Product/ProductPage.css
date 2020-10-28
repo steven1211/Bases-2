@@ -1,0 +1,172 @@
+.img-container{
+  margin-right: 20%;
+  margin-top: 5%;
+  display: inline-flex;
+  width: 40%;
+}
+
+.arrow{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	position: absolute;
+    z-index: -1;
+    cursor: pointer; /* "hand" cursor */
+}
+
+.arrow + label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    cursor: pointer;
+    width: 100%;
+    height: 4.1em;
+    padding: 3%;
+}
+
+.product-image{
+    border: 3px solid black;
+}
+
+.arrow-btn{
+    align-self: center;
+}
+
+.arrow-icon{
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.arrow-icon:hover{
+    color: black;
+}
+
+.cartBtn{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	position: absolute;
+    z-index: -1;
+    cursor: pointer; /* "hand" cursor */
+}
+
+.cartBtn + label{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.1em;
+    color:#282c34;
+    background-color: rgb(29, 211, 105);
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    transition: all 0.2s;
+    cursor: pointer;
+    width: 100%;
+    height: 4.1em;
+    border-radius: 0.7rem;
+}
+
+.cartBtn + label:hover {
+    background-color: rgb(26, 192, 95);
+}
+
+.cartBtn2 + label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0.9em;
+    color:#282c34;
+    background-color:rgb(255, 198, 0);
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:80;
+    width:20;
+    cursor: pointer;
+    height: 2.1em;
+    border-radius: 0.7rem;
+}
+
+.cartBtn2 + label:hover {
+    background-color: rgb(240, 170, 0)
+}
+
+.cart-icon{
+    display: flex;
+    color: rgba(29, 23, 23, 0.514);
+}
+
+.top-container{
+    float: right;
+    margin: 2.1em;
+    display: block;
+    width: 50%;
+    padding-right: 3em;
+    width: fit-content;
+}
+
+.top-container-text{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.9em;
+    width: 70%;
+    width: fit-content;
+}
+
+.title{
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.7em;
+}
+
+.top-text{
+    text-align: right;
+    padding: 25px;
+}
+
+.below-container{
+    margin-top: 5em;
+}
+
+.star{
+    display: inline-block;
+}
+
+.description{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+.stars-outer2 {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+    font-size: 40px;
+  }
+
+  .stars-outer2::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+  }
+
+  .stars-inner2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0
+  }
+   
+  .stars-inner2::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8ce0b;
+  }
